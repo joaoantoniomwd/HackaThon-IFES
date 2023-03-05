@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilos/style.css">
+  <title>Reprograme-se - Sobre</title>
+</head>
+
+<body>
+  <header>
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+    <nav id="navbar" class="navbar navbar-expand-sm p-3 sticky-top">
+      <div class="container-fluid">
+        <!-- Display flex permite alinhar itens verticalmente-->
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <img id="logoCabecalho" src="Img/logo-reprogramese/preferencial-vertical-grande.png">
+        </a>
+        <div class="navbar-nav ms-auto">
+          <!-- Botão Navbar, será ativado caso o nav da linha 26 seja maior que SM -->
+          <button id="hamburgButton" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i id="iconeBotao" class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="menuNavbar">
+            <div class="navbar-nav">
+              <!-- Botões no menu -->
+              <a href="index.html" class="nav-link active navBotao">Principal</a>
+              <a href="sobre.html" class="nav-link navBotao">Sobre</a>
+              <a href="duvidas.html" class="nav-link navBotao">FAQ</a>
+              <a href="acessibilidade.html" class="nav-link navBotao">Acessibilidade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="espacoNav"></div>
+  </header>
+
+  <content id="conteudo">
+    <div class="container">
+      <p class="titulo">Sobre nós</p>
+      <p>Site desenvolvido para o Hackathon 2023 pela dupla "Turing", composta pelos participantes <b>João Antonio
+          Morgado Won Doelinger</b> (20222rep10060) e <b>Adeildo de Souza Dutra</b> (20222rep10060).</p>
+      <hr>
+      <p class="titulo">O projeto</p>
+      <div class="row">
+        <div class="col-12">
+          <a href="https://reprograme-se.org.br/" target="_blank">
+            <img class="logoContent img-thumbnail float-start me-3"
+              src="Img/logo-reprogramese/preferencial-horizontal.png">
+          </a>
+          <p><b>Reprograme-se </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+            veritatis numquam minus
+            beatae odit molestiae, fuga porro, eveniet vero voluptas inventore placeat ipsum rem natus
+            obcaecati accusamus nam ex eos provident alias. Sequi iure doloribus nemo. Consequatur ex dicta
+            sint nulla eum error nihil corrupti vitae ad quod, vel magnam magni, quia possimus fuga saepe
+            omnis. Nisi eveniet nemo consectetur, eaque dolorum nostrum neque harum dolores iusto excepturi
+            cupiditate, quisquam id quibusdam, aut voluptas reprehenderit. Odio enim, quo reprehenderit
+            laudantium repellat porro vero commodi neque aliquid deserunt odit explicabo!</p>
+          <p><a
+              href="https://cachoeiro.ifes.edu.br/images/stories/2022/editais/252022/Estrutura_e_organizacao_do_reprograme-se.pdf"
+              target="_blank">Pode estar acessando a grade currícular por aqui!</a></p>
+        </div>
+      </div>
+      <hr>
+      <p class="titulo">Responsáveis pela realização</p>
+      <div class="row">
+        <div class="col-12">
+          <a href="https://www.ifes.edu.br/" target="_blank">
+            <img class="logoContent img-thumbnail float-end me-3" src="Img/logo-ifes/ifes-horizontal-cor.png">
+          </a>
+          <p><b>IFES </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veritatis
+            numquam minus
+            beatae odit molestiae, fuga porro, eveniet vero voluptas inventore placeat ipsum rem natus
+            obcaecati accusamus nam ex eos provident alias. Sequi iure doloribus nemo. Consequatur ex dicta
+            sint nulla eum error nihil corrupti vitae ad quod, vel magnam magni, quia possimus fuga saepe
+            omnis. Nisi eveniet nemo consectetur, eaque dolorum nostrum neque harum dolores iusto excepturi
+            cupiditate, quisquam id quibusdam, aut voluptas reprehenderit. Odio enim, quo reprehenderit
+            laudantium repellat porro vero commodi neque aliquid deserunt odit explicabo!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="https://action.org.es/" target="_blank">
+            <img class="logoContent img-thumbnail float-start me-3" src="Img/logo-action/horizontal-cor.png">
+          </a>
+          <p><b>Action </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veritatis
+            numquam minus
+            beatae odit molestiae, fuga porro, eveniet vero voluptas inventore placeat ipsum rem natus
+            obcaecati accusamus nam ex eos provident alias. Sequi iure doloribus nemo. Consequatur ex dicta
+            sint nulla eum error nihil corrupti vitae ad quod, vel magnam magni, quia possimus fuga saepe
+            omnis. Nisi eveniet nemo consectetur, eaque dolorum nostrum neque harum dolores iusto excepturi
+            cupiditate, quisquam id quibusdam, aut voluptas reprehenderit. Odio enim, quo reprehenderit
+            laudantium repellat porro vero commodi neque aliquid deserunt odit explicabo!</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="titulo">Depoimento de alunos</p>
+        <div class="col-12">
+          <div class="col-8 mx-auto mb-5">
+            <div class="carousel slide carousel-fade" id="depoimentos" data-bs-ride="carousel">
+              <!-- Indicador de slide -->
+              <div class="carousel-indicators">
+                <button class="active" data-bs-target="depoimentos" data-bs-slide-to="0"></button>
+                <button class="" data-bs-target="depoimentos" data-bs-slide-to="1"></button>
+                <button class="" data-bs-target="depoimentos" data-bs-slide-to="2"></button>
+              </div>
+              <div class="carousel-inner">
+                <!-- Carrossel 1 -->
+                <div class="carousel-item active" data-bs-interval="6000">
+                  <img src="Img/mockups/estudante1.avif" alt="" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p><b>Jorge, 24</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Similique aspernatur non aliquam? Enim delectus nesciunt doloremque illo
+                      repudiandae cupiditate, perferendis, odio tenetur.</p>
+                  </div>
+                </div>
+                <!-- Carrossel 2 -->
+                <div class="carousel-item" data-bs-interval="6000">
+                  <img src="Img/mockups/estudante2.avif" alt="" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p><b>Lorem, 21</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laborum, provident nisi illo dolorum repellat, facilis voluptas, non
+                      necessitatibus ullam deserunt deleniti ipsam soluta nihil at. Quos quas at
+                      aut ex.</p>
+                  </div>
+                </div>
+                <!-- Carrossel 3 -->
+                <div class="carousel-item" data-bs-interval="6000">
+                  <img src="Img/mockups/estudante3.avif" alt="" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p><b>Pedro, 18</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque suscipit, fugiat aut aspernatur repudiandae atque?</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Botões de controle -->
+              <!-- Botão de voltar -->
+              <button class="carousel-control-prev" data-bs-target="#depoimentos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <!-- Botão de avançar -->
+              <button class="carousel-control-next" data-bs-target="#depoimentos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+
+  <div id="espacoNav"></div>
+  <footer id="footer">
+    <div class="row">
+      <div id="logosFooter">
+        <a href="https://www.ifes.edu.br/">
+          <img src="Img/logo-ifes/ifes-vertical-cor.png">
+        </a>
+        <a href="https://action.org.es/">
+          <img src="Img/logo-action/vertical-cor.png">
+        </a>
+        <a href="https://reprograme-se.org.br/">
+          <img src="Img/logo-reprogramese/preferencial-horizontal-branca.png">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Reprograme-se</title>
+</head>
+
+<body>
+    <header>
+        <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+        <nav id="navbar" class="navbar navbar-expand-sm p-3 sticky-top">
+            <div class="container-fluid">
+                <!-- Display flex permite alinhar itens verticalmente-->
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img id="logoCabecalho" src="Img/logo-reprogramese/preferencial-vertical-grande.png" alt="">
+                </a>
+                <div class="navbar-nav ms-auto">
+                    <!-- Botão Navbar, será ativado caso o nav da linha 26 seja maior que SM -->
+                    <button id="hamburgButton" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i id="iconeBotao" class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menuNavbar">
+                        <div class="navbar-nav">
+                            <!-- Botões no menu -->
+                            <a href="index.html" class="nav-link active navBotao">Principal</a>
+                            <a href="sobre.html" class="nav-link navBotao">Sobre</a>
+                            <a href="duvidas.html" class="nav-link navBotao">FAQ</a>
+                            <a href="acessibilidade.html" class="nav-link navBotao">Acessibilidade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="espacoNav"></div>
+    </header>
+
+    <content id="conteudo">
+        <div class="container">
+            <p class="titulo">Dúvidas?</p>
+            <div class="col-12">
+                <p>Estamos aqui para te ajudar em qualquer dúvida que você tenha! <i
+                        class="bi bi-emoji-smile-fill text-warning"></i></p>
+                <p>Antes, dê uma olhadinha nas perguntas frequentes, talvez sua resposta esteja aqui.</p>
+            </div>
+
+            <hr>
+
+            <p class="titulo">Perguntas frequêntes</p>
+
+            <b>Quais são os cursos de projeto reprograme-se?</b>
+            <p>O reprograme-se é composto por dois cursos: o curso Programação básica de aplicativos
+                Web - Front-end e o curso Programação com JavaScript e o Framework Node.js - Backend (<a
+                    href="https://cachoeiro.ifes.edu.br/images/stories/2022/editais/252022/Estrutura_e_organizacao_do_reprograme-se.pdf"
+                    target="_bla
+            ">confira o link da
+                    estrutura do
+                    curso</a>).</p>
+            <b>Quanto tempo eu tenho para finalizar os cursos do projeto reprograme-se?</b>
+            <p>O reprograme-se terá a duração de 8 meses, sendo 4 meses para o curso Programação
+                básica de aplicativos Web - Front-end e 4 meses para o curso Programação com
+                JavaScript e o Framework Node.js - Back-end.</p>
+            <b>Tenho que pagar inscrição?</b>
+            <p>Não, o curso é totalmente gratuito.</p>
+            <b>Terei atendimentos se tiver dúvidas?</b>
+            <p>Sim. Você contará com o apoio de um professor mediador que possui formação na área
+                do reprograme-se e um Monitor que é estudante de curso de informática.</p>
+            <b>Tenho que ir ao Ifes fazer matrícula?</b>
+            <p>Não! As matrículas serão realizadas de forma online a partir das informações
+                disponibilizadas na inscrição.</p>
+            <b>O curso será gravado, podendo assistir posteriormente?</b>
+            <p>Sim. O curso está no AVA- Moodle e nele os materiais, os conteúdos e atividades
+                poderão ser acessados 24 horas por dia. Entretanto existem prazos finais para o
+                cumprimento das atividades que possuem o encerramento, semanalmente.</p>
+            <b>Posso estudar de qualquer lugar?</b>
+            <p>Sim, desde que sua localidade permita você frequentar encontros presenciais que
+                ocorrerão no polo de apoio presencial do município do Estado do Espírito Santo – polo
+                UAB, conforme listados no edital.</p>
+            <b>Sou morador de outro Estado é possível fazer o curso totalmente online?</b>
+            <p>Não! A proposta pedagógica do curso não permite que o curso seja totalmente online
+                devido a complexidade do conteúdo “programação web”, dessa forma haverá
+                necessidade de encontros presenciais para orientação e realização das atividades
+                práticas. Assim você deverá ser morador do Estado do Espírito Santo.</p>
+            <b>Tenho que ir ao Ifes para fazer alguma atividade?</b>
+            <p>Não! A maioria das atividades serão realizadas de forma online utilizando-se do
+                Ambiente de Aprendizagem – Moodle e em ambiente interativo de desenvolvimento, e,
+                os momentos presenciais serão realizados no polo de apoio presencial UAB do
+                município, em horário combinado com o Professor Mediador.</p>
+            <b>Sou obrigado a ir ao polo de apoio presencial?</b>
+            <p>Sim. Considerando a complexidade do conteúdo de programação é importante para
+                efetivação da aprendizagem que você participe de momentos presenciais de estudos. O
+                Professor mediador estará disponível para orientar a aprendizagem, sanar as dúvidas
+                em relação aos conteúdos, bem como, acompanhar a execução das atividades
+                avaliativas.</p>
+            <b>Os cursos do projeto Reprograme-se serão realizados somente a distância?</b>
+            <p>Não, embora a maioria das atividades, tanto práticas como teóricas sejam desenvolvidas
+                à distância, haverá apoio e orientação de forma presencial no polo UAB do município
+                (ES), mais próximo de sua residência. Os polos estão listados no edital.</p>
+            <b>Como serão realizadas as aulas online?</b>
+            <p>As aulas online serão realizadas na plataforma Moodle e, neste ambiente, teremos todo
+                o material do curso, dentre eles, videoaulas gravadas, textos, link à Internet e
+                atividades variadas.</p>
+            <b>Haverá acompanhamento ao estudante com horário pré determinados?</b>
+            <p>Sim. Haverá acompanhamento em horários pré-determinados por meio do programa
+                Repl-it para realização das atividades de programação de forma interativa e, ainda,
+                atividades síncronas por meio web conferência e encontros presenciais no polo de apoio
+                presencial UAB do município listado no edital.</p>
+            <b>Se eu realizar os cursos do projeto reprograme-se estarei preparado para programar?</b>
+            <p>O egresso do curso “Reprograme-se” estará preparado para assumir demandas de
+                mercado de baixa complexidade no desenvolvimento de soluções web usando a
+                linguagem de programação Javascript juntamente com o framework Node.js, estando
+                também fundamentado para se adaptar a outras plataformas de desenvolvimento.</p>
+            <b>Sou estudante do último ano do Ensino Médio em Escola particular, minha inscrição
+                será aceita?</b>
+            <p>Neste momento, não! Esta oferta do reprograme-se está aberta somente para quem já
+                possui o Ensino Médio completo e estudantes do último ano do Ensino Médio da escola
+                pública.</p>
+            <b>O aluno fará seu próprio horário pessoal de estudos?</b>
+            <p>Sim. Entretanto é possível que precisará adaptar-se a alguns horários de atendimento
+                com o Professor Mediador e Monitor.</p>
+
+            <hr>
+
+            <p class="titulo">Ainda está com dúvidas?</p>
+            <p>Este campo também pode ser utilizado para sujestão ou reclamação. Estamos aqui para te ouvir.</p>
+
+            <form action="mailto:contato@reprograme-se.org.br" method="GET">
+                <div class="row">
+                    <div class="mb-3 col-12">
+                        <label for="frmEmail" class="form-label">Email</label>
+                        <input id="frmEmail" class="form-control" type="email" placeholder="email@email.com">
+                        <div class="form-text">Seu email não será compartilhado com ninguém</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-12">
+                        <label for="frmPq" class="form-label">Qual a sua dúvida?</label>
+                        <textarea class="form-control" id="frmPq" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="float-end">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </content>
+
+    <div id="espacoNav"></div>
+    <footer id="footer">
+        <div class="row">
+            <div id="logosFooter">
+                <a href="https://www.ifes.edu.br/">
+                    <img src="Img/logo-ifes/ifes-vertical-cor.png">
+                </a>
+                <a href="https://action.org.es/">
+                    <img src="Img/logo-action/vertical-cor.png">
+                </a>
+                <a href="https://reprograme-se.org.br/">
+                    <img src="Img/logo-reprogramese/preferencial-horizontal-branca.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
